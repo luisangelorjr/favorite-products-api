@@ -1,0 +1,11 @@
+services:
+  db-postgres:
+    image: postgres:latest
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: favorite-products-api-user
+      POSTGRES_PASSWORD: weak-password-only-for-aiqfome-test-on-dev
+      POSTGRES_DB: favorite-products-db
+    ports:
+    - 5432:5432
