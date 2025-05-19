@@ -6,6 +6,7 @@ plugins {
 
 group = 'br.com.luisangelorjr'
 version = '0.0.1-SNAPSHOT'
+description = 'Demo project for Magazine Luiza | aiqfome'
 
 java {
 	toolchain {
