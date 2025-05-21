@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'br.com.luisangelorjr'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 description = 'Demo project for Magazine Luiza | aiqfome'
 
 java {
