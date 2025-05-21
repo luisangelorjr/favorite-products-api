@@ -12,6 +12,18 @@ http://localhost:9080/favorite-products-api/swagger-ui/index.html#/
 
 ### Development
 
+### Tools and etc
+
+#### MapStruct
+
+>MapStruct is a fast and ligthweight java mapping
+
+Ths project is configured already
+See on this [link](https://mapstruct.org/documentation/ide-support/) to view the support for your favorite IDE or click bellow:
+
+ - [Eclipse](https://mapstruct.org/documentation/ide-support/#eclipse)
+ - [IntelliJ IDEA](https://mapstruct.org/documentation/ide-support/#intellij-idea)
+
 #### Environment
 
 ##### Dev
