@@ -35,3 +35,40 @@ spring.profiles.active=dev
 
 ```
 
+### Build & Deploy
+
+#### Build
+
+To create a runnable .jar, run this command
+
+```bash
+./gradlew clean build -x test
+```
+
+> ```-x test``` ignores the unit test phase
+
+
+#### Deploy
+
+> Remember: The enviroments variables in production generally are Infrastructure/DevOps responsability, but on some cases de Dev Team have ways to configuring (OpenShift, Azure Secrets, GitHub Secrets etc)
+
+To run this app, first you needed the JRE 21.
+Second: run this command
+
+```bash
+java -jar build/libs/favorite-products-api-1.0.0.jar 
+```
+
+If you want simply run a command:
+
+
+```bash
+./gradlew bootRun
+```
+
+#### One- Test
+
+If you can run the app with development configuration follow this list:
+
+1. If you have docker, docker-compose and jre21, simply run ```./gradlew bootJar```
+
