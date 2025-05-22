@@ -1,8 +1,14 @@
-# 
+# favorite-products-api
 
 ## Objective
 
 Create "Users" and your "Favorite Products" and management between each
+
+> To run a quick test, see the section [Quick Test](#quick-test). JRE21 and Docker Compose required
+
+## Online Demo
+
+http://ec2-3-145-204-211.us-east-2.compute.amazonaws.com:9080/favorite-products-api/swagger-ui/index.html
 
 ## OpenAPI / Swagger
 
@@ -19,6 +25,7 @@ http://localhost:9080/favorite-products-api/swagger-ui/index.html#/
 >MapStruct is a fast and ligthweight java mapping
 
 Ths project is configured already
+
 See on this [link](https://mapstruct.org/documentation/ide-support/) to view the support for your favorite IDE or click bellow:
 
  - [Eclipse](https://mapstruct.org/documentation/ide-support/#eclipse)
@@ -56,19 +63,21 @@ To run this app, first you needed the JRE 21.
 Second: run this command
 
 ```bash
-java -jar build/libs/favorite-products-api-1.0.0.jar 
+java -jar build/libs/favorite-products-api-1.0.0.jar --spring.profiles.active=dev
 ```
 
-If you want simply run a command:
+Where:
+
+1. ```1.0.0``` is the version your application
+2. ```--spring.profiles.active=dev``` is for choosing the enviroment configurations. Remove this for getting the default configuration (production)
+
+
+##### Quick test
+
+If you want a simple quick test, run the command:
 
 
 ```bash
-./gradlew bootRun
+./gradlew bootRun --args='--spring.profiles.active=dev'
 ```
-
-#### One- Test
-
-If you can run the app with development configuration follow this list:
-
-1. If you have docker, docker-compose and jre21, simply run ```./gradlew bootJar```
 
