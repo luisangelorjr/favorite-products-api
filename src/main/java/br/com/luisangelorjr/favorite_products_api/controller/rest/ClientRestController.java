@@ -28,7 +28,7 @@ import br.com.luisangelorjr.favorite_products_api.service.ClientService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/v1/client")
+@RequestMapping("/v1/clients")
 public class ClientRestController {
 	
 	Logger logger = LoggerFactory.getLogger(this.getClass());
