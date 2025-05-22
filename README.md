@@ -4,6 +4,8 @@
 
 Create "Users" and your "Favorite Products" and management between each
 
+> To run a quick test, [see this section](#quick-test)
+
 ## OpenAPI / Swagger
 
 http://localhost:9080/favorite-products-api/swagger-ui/index.html#/
@@ -19,6 +21,7 @@ http://localhost:9080/favorite-products-api/swagger-ui/index.html#/
 >MapStruct is a fast and ligthweight java mapping
 
 Ths project is configured already
+
 See on this [link](https://mapstruct.org/documentation/ide-support/) to view the support for your favorite IDE or click bellow:
 
  - [Eclipse](https://mapstruct.org/documentation/ide-support/#eclipse)
@@ -59,16 +62,12 @@ Second: run this command
 java -jar build/libs/favorite-products-api-1.0.0.jar 
 ```
 
-If you want simply run a command:
+##### Quick test
+
+If you want simply quick test, run the command:
 
 
 ```bash
-./gradlew bootRun
+./gradlew bootRun --args='--spring.profiles.active=dev'
 ```
-
-#### One- Test
-
-If you can run the app with development configuration follow this list:
-
-1. If you have docker, docker-compose and jre21, simply run ```./gradlew bootJar```
 
