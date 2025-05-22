@@ -59,8 +59,14 @@ To run this app, first you needed the JRE 21.
 Second: run this command
 
 ```bash
-java -jar build/libs/favorite-products-api-1.0.0.jar 
+java -jar build/libs/favorite-products-api-1.0.0.jar --spring.profiles.active=dev
 ```
+
+Where:
+
+1. ```1.0.0``` is the version your application
+2. ```--spring.profiles.active=dev``` is for choosing the enviroment configurations. Remove this for getting the default configuration (production)
+
 
 ##### Quick test
 
