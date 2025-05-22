@@ -8,7 +8,7 @@ Create "Users" and your "Favorite Products" and management between each
 
 ## Online Demo
 
-http://ec2-3-145-204-211.us-east-2.compute.amazonaws.com:9080/favorite-products-api/swagger-ui/index.html
+~http://ec2-3-145-204-211.us-east-2.compute.amazonaws.com:9080/favorite-products-api/swagger-ui/index.html 🚀~ Not fully deployed yet
 
 ## OpenAPI / Swagger
 
