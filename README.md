@@ -1,10 +1,10 @@
-# 
+# favorite-products-api'
 
 ## Objective
 
 Create "Users" and your "Favorite Products" and management between each
 
-> To run a quick test, [see this section](#quick-test)
+> To run a quick test, see the section [Quick Test](#quick-test). JRE21 and Docker Compose required
 
 ## OpenAPI / Swagger
 
@@ -64,7 +64,7 @@ java -jar build/libs/favorite-products-api-1.0.0.jar
 
 ##### Quick test
 
-If you want simply quick test, run the command:
+If you want a simple quick test, run the command:
 
 
 ```bash
