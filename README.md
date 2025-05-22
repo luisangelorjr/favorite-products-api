@@ -1,4 +1,4 @@
-# favorite-products-api'
+# favorite-products-api
 
 ## Objective
 
