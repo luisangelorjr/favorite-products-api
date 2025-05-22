@@ -6,6 +6,10 @@ Create "Users" and your "Favorite Products" and management between each
 
 > To run a quick test, see the section [Quick Test](#quick-test). JRE21 and Docker Compose required
 
+## Online Demo
+
+http://ec2-3-145-204-211.us-east-2.compute.amazonaws.com:9080/favorite-products-api/swagger-ui/index.html
+
 ## OpenAPI / Swagger
 
 http://localhost:9080/favorite-products-api/swagger-ui/index.html#/
